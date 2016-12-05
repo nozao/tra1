@@ -30,7 +30,7 @@
 
 
   <!-- Import Rviz colors -->
-  <xacro:include filename="$(find techno21_robot)/urdf/materials.xacro" />
+  <xacro:include filename="$(find tra1)/urdf/materials.xacro" />
 
   <!-- Used for fixing robot to Gazebo 'base_link' -->
   <link name="world"/>
@@ -46,7 +46,7 @@
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <axis xyz="0 0 0"/>
         <geometry>
-            <mesh filename="package://techno21_robot/meshes/link1.STL" scale="1 1 1"/>
+            <mesh filename="package://tra1/meshes/link1.STL" scale="1 1 1"/>
         </geometry>
         <material name="grey"/>
     </visual>
@@ -66,7 +66,7 @@
     <visual>
       <origin xyz="${-FL_J1X} ${-FL_J1Y} ${-FL_J1Z}" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://techno21_robot/meshes/link2.STL" scale="1 1 1"/>
+        <mesh filename="package://tra1/meshes/link2.STL" scale="1 1 1"/>
       </geometry>
       <material name="black"/>
     </visual>
@@ -86,7 +86,7 @@
         <visual>
           <origin xyz="${-(FL_J1X+J1_J2X)} ${-(FL_J1Y+J1_J2Y)} ${-(FL_J1Z+J1_J2Z)}" rpy="0 0 0"/>
           <geometry>
-            <mesh filename="package://techno21_robot/meshes/link3.STL" scale="1 1 1"/>
+            <mesh filename="package://tra1/meshes/link3.STL" scale="1 1 1"/>
           </geometry>
           <material name="grey"/>
         </visual>
@@ -106,7 +106,7 @@
         <visual>
           <origin xyz="${-(FL_J1X+J1_J2X+J2_J3X)} ${-(FL_J1Y+J1_J2Y+J2_J3Y)} ${-(FL_J1Z+J1_J2Z+J2_J3Z)}" rpy="0 0 0"/>
           <geometry>
-            <mesh filename="package://techno21_robot/meshes/link4.STL" scale="1 1 1"/>
+            <mesh filename="package://tra1/meshes/link4.STL" scale="1 1 1"/>
           </geometry>
           <material name="grey"/>
         </visual>
@@ -126,7 +126,7 @@
         <visual>
           <origin xyz="${-(FL_J1X+J1_J2X+J2_J3X+J3_J4X)} ${-(FL_J1Y+J1_J2Y+J2_J3Y+J3_J4Y)} ${-(FL_J1Z+J1_J2Z+J2_J3Z+J3_J4Z)}" rpy="0 0 0"/>
           <geometry>
-            <mesh filename="package://techno21_robot/meshes/link5.STL" scale="1 1 1"/>
+            <mesh filename="package://tra1/meshes/link5.STL" scale="1 1 1"/>
           </geometry>
           <material name="black"/>
         </visual>
@@ -145,7 +145,7 @@
         <visual>
           <origin xyz="${-(FL_J1X+J1_J2X+J2_J3X+J3_J4X+J4_J5X)} ${-(FL_J1Y+J1_J2Y+J2_J3Y+J3_J4Y+J4_J5Y)} ${-(FL_J1Z+J1_J2Z+J2_J3Z+J3_J4Z+J4_J5Z)}" rpy="0 0 0"/>
           <geometry>
-            <mesh filename="package://techno21_robot/meshes/link6.STL" scale="1 1 1"/>
+            <mesh filename="package://tra1/meshes/link6.STL" scale="1 1 1"/>
           </geometry>
           <material name="grey"/>
         </visual>
@@ -165,7 +165,7 @@
         <visual>
           <origin xyz="${-(FL_J1X+J1_J2X+J2_J3X+J3_J4X+J4_J5X+J5_J6X)} ${-(FL_J1Y+J1_J2Y+J2_J3Y+J3_J4Y+J4_J5Y+J5_J6Y)} ${-(FL_J1Z+J1_J2Z+J2_J3Z+J3_J4Z+J4_J5Z+J5_J6Z)}" rpy="0 0 0"/>
           <geometry>
-            <mesh filename="package://techno21_robot/meshes/link7.STL" scale="1 1 1"/>
+            <mesh filename="package://tra1/meshes/link7.STL" scale="1 1 1"/>
           </geometry>
           <material name="black"/>
         </visual>
